@@ -57,3 +57,11 @@ if user_color in colors:
     print(f"{user_color} is in colors")
 else:
     print(f"{user_color} is not in colors set")
+print()
+
+#convert list to set
+names = ["Ogone", "Neo", "Resego", "Neo", "Ogone", "Kamo", "Gomo"]
+print(f"names = {names}")
+#convert to a set
+names_set = set((names))
+print(f"converted list to set = {names_set}")
