@@ -65,3 +65,8 @@ print(f"names = {names}")
 #convert to a set
 names_set = set((names))
 print(f"converted list to set = {names_set}")
+print()
+
+# Set Length
+set_len = len(names_set)
+print(f"The length of the set is = {set_len}")
