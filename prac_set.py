@@ -70,3 +70,7 @@ print()
 # Set Length
 set_len = len(names_set)
 print(f"The length of the set is = {set_len}")
+
+#frozen set
+new_set = frozenset(names)
+print(f"Immutable set = {new_set}")
