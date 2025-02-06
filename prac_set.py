@@ -46,3 +46,14 @@ print(set2)
 #symmetric difference update
 colors.symmetric_difference_update(joined_colors)
 print(colors)
+print()
+
+#Check Element in Set
+user_color = input("Which color would you like to check? ")
+colors = {"yellow", "beige", "red", "blue", "khakhi", "orange"}
+print(f"Colors = {colors}")
+
+if user_color in colors:
+    print(f"{user_color} is in colors")
+else:
+    print(f"{user_color} is not in colors set")
